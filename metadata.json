@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Bao Di Sajji — World Unique Sajji | Kamoke",
+  "description": "Official website for Bao Di Sajji on Main GT Road, Kamoke, Pakistan. Discover 8 unique sajji flavours, call to order at 03090111218, get directions, and explore our 5-star sajji experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --color-gold-50: #fefce8;
+  --color-gold-100: #fef9c3;
+  --color-gold-200: #fef08a;
+  --color-gold-300: #fde047;
+  --color-gold-400: #facc15;
+  --color-gold-500: #eab308;
+  --color-gold-600: #ca8a04;
+  --color-gold-700: #a16207;
+  --color-gold-800: #854d0e;
+  --color-gold-900: #713f12;
+  --color-gold-metallic: #d4af37;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #080808;
+  color: #f5f5f5;
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+/* Subtle gold metallic shimmer and ember ambient effects */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fff2a3 0%, #eab308 50%, #ca8a04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 20px -5px rgba(234, 179, 8, 0.15);
+}
+
+.gold-button-gradient {
+  background: linear-gradient(135deg, #eab308 0%, #ca8a04 100%);
+}
+
+.gold-button-gradient:hover {
+  background: linear-gradient(135deg, #facc15 0%, #d97706 100%);
+}
